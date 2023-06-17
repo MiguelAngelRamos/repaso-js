@@ -1,3 +1,7 @@
+export function cleanRow(element) {
+  element.innerHTML = '';
+}
+
 function cardCharacter(character, rowElement) {
   //* Crear los elementos html
   const cardBootstrap = document.createElement('div');
@@ -17,6 +21,8 @@ function cardCharacter(character, rowElement) {
   titleCharacter.classList.add('card-title', 'text-center');
   btnByIdCharacter.classList.add('btn', 'btn-secondary', 'btn-sm', 'mb-2');
   
+  btnByIdCharacter.href = `personaje.html?id=${character.id}`;
+
   //* Añadir los textos
   titleCharacter.appendChild(nameCharacter);
   btnByIdCharacter.appendChild(textButtonCharacter);
