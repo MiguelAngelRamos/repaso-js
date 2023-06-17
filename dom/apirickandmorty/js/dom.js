@@ -20,6 +20,7 @@ function cardCharacter(character, rowElement) {
   //* Añadir los textos
   titleCharacter.appendChild(nameCharacter);
   btnByIdCharacter.appendChild(textButtonCharacter);
+  imgCard.src= character.image;
 
   //* ajustar los elementos o hacer el orden jerarquico
   cardBootstrap.append(imgCard, cardBody, btnByIdCharacter);
