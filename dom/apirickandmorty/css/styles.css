@@ -1,0 +1,49 @@
+body {
+  font-family: 'Nunito Sans', sans-serif;
+  background-color: #0D1117;
+  color: #c9d1d9;
+}
+
+.navbar {
+  background-color: #161b22;
+  box-shadow: 0 0 10px 0 rgba(0,0,0,0.4);
+  color: #c9d1d9;
+}
+
+.navbar-brand {
+  font-size: 35px;
+  font-family: 'Comforter', cursive;
+  font-weight: 700;
+  color: #c9d1d9;
+}
+
+.navbar-nav .nav-link {
+  color: #c9d1d9;
+}
+
+.card {
+  width: 18rem; /* 16px *  18*/
+  background-color: #161b22;
+  color: #c9d1d9;
+  border: none;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.card-title {
+  color: #c9d1d9;
+}
+
+.btn-secondary {
+  background-color: #238636;
+  border-color: #2ea043;
+}
+
+.btn-outline-success {
+  color: #c9d1d9;
+  border-color: #c9d1d9;
+}
+
+.btn-outline-success:hover {
+  background-color: #238636;
+  border-color: #2ea043;
+}

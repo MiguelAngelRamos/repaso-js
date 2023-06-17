@@ -1,0 +1,48 @@
+
+.character-card {
+  width: 300px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  margin: 20px auto;
+  overflow: hidden;
+}
+
+.character-card img {
+  width: 100%;
+  height: auto;
+}
+
+.character-card h2 {
+  margin: 10px;
+  font-size: 20px;
+  color: #c6bdbd;
+}
+
+.character-card span {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  font-size: 16px;
+  color: #c8c1c1;
+}
+
+.character-card .alive::before {
+  content: '';
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin-right: 5px;
+  border-radius: 50%;
+  background: limegreen;
+}
+
+.character-card .dead::before {
+  content: '';
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin-right: 5px;
+  border-radius: 50%;
+  background: red;
+}
